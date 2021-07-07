@@ -12,7 +12,7 @@ from selenium.webdriver.chrome.options import Options
 class Base:
     @pytest.fixture(autouse=True)
     def setup(self):
-        if "cloud-api-dev.neuraldsp." in str(BE.url):
+        if "cloud-api-dev." in str(BE.url):
             options = Options()
             options.binary_location = os.environ['CHROME_BIN']
             options.add_argument("no-sandbox")  # FIXME: temporary workaround for https://github.com/SeleniumHQ/selenium/issues/4961#issuecomment-365251536
