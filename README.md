@@ -1,4 +1,4 @@
-# Automated API & UI tests for project
+# Pytest and Selenium setup for API & UI tests
 
 Tests are written in Python 3.9 with Pytest framework to check responses that are provided in
 API documentation.
