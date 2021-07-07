@@ -1,0 +1,14 @@
+/.idea
+.backup_large/
+.settings
+.classpath
+.project
+.idea
+target/
+.DS_Store
+project/target
+__pycache__/
+.gradle/
+*.log
+.pytest_cache
+venv/
