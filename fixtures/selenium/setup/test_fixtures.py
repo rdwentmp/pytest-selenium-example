@@ -9,7 +9,7 @@ from fixtures.env import BE, FE
 from selenium.webdriver.chrome.options import Options
 
 
-class Base:
+class Driver:
     @pytest.fixture(autouse=True)
     def setup(self):
         if "cloud-api-dev." in str(BE.url):
