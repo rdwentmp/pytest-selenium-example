@@ -12,11 +12,11 @@ API tests check the status code and validating the JSON response from the server
 
 To utilize this project you need to have the following installed locally:
 
- - Python 3.9
- - pytest
- - requests
- - selenium
- - webdriver-manager
+ - [Python](https://docs.python.org/3.9/) 3.9
+ - [pytest](https://docs.pytest.org/en/6.2.x/contents.html)
+ - [requests](https://docs.python-requests.org/en/latest/)
+ - [selenium](https://www.selenium.dev/documentation/)
+ - [webdriver-manager](https://pypi.org/project/webdriver-manager/)
  
  All usage packages are described in requirements.txt 
  To install all necessary packages' run command:
